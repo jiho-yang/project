@@ -15,15 +15,4 @@ a {
     color: inherit;
 }
 
-html,
-body {
-    width: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-
-.clear_fix {
-    clear: both;
-}
-
-.pc_none{display: none !important;}
+body{background-color: #ecf6fb;}
