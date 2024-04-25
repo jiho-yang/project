@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Patrick+Hand|Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.after::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+/*-----------------------header----------------------- */
+
+.headerWrap {
+    width: 100%;
+}
+
+.headerWrap>#header {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.headerWrap>#header>.logo {
+    width: 100%;
+    text-align: center;
+}
+
+.headerWrap>#header>.logo>img {
+    width: 7%;
+}
+
+.headerWrap>#header>ul {
+    width: 100%;
+}
+
+.headerWrap>#header>ul>li {
+    width: 20%;
+    float: left;
+}
+
+.headerWrap>#header>ul>li>a {
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/*---------------------contents------------------------ */
+
+#contents {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 70px 0px 150px;
+}
+
+#contents>.con1 {
+    width: 100%;
+    padding: 0px 0px 150px;
+}
+
+#contents>div>h1 {
+    padding: 30px 0;
+    font-family: 'Muli', sans-serif;
+}
+
+#contents>.con1>.after>.textBox>p {
+    font-family: 'Work Sans', sans-serif;
+}
+
+#contents>.con1>.after>.textBox>p>span {
+    display: block;
+    padding: 5px 0;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#contents>.con1>div {
+    margin-bottom: 30px;
+}
+
+#contents>.con1>div:last-child {
+    margin-bottom: 0;
+}
+
+#contents>.con1>div>.imgBox {
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+#contents>.con1>div>.textBox {
+    width: 50%;
+    height: 400px;
+    float: left;
+    padding: 90px 50px;
+    box-sizing: border-box;
+    line-height: 35px;
+}
+
+#contents>.con1>div>.imgBox1 {
+    background: url(img/con1-1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#contents>.con1>div>.imgBox2 {
+    background: url(img/con1-2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#contents>.con1>div>.imgBox3 {
+    background: url(img/con1-3.jpg) no-repeat;
+    background-size: cover;
+}
+
+#contents>.con1>div>.imgBox4 {
+    background: url(img/con1-4.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+
+
+
+
+/*---------------------con2-------------------- */
+
+#contents>.con2 {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+#contents>.con2>div {
+    width: 23.5%;
+    margin-right: 2%;
+    float: left;
+    border-radius: 50%;
+
+}
+
+#contents>.con2>div:last-child {
+    margin-right: 0%;
+}
+
+#contents>.con2>div>.op {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#contents>.con2>div>.op>a {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 13px;
+
+}
+
+#contents>.con2>div:hover .op {
+    opacity: 1;
+    
+}
+
+
+#contents>.con2>.img1 {
+    height: 300px;
+    background: url(img/con2-1.jpg) no-repeat;
+    background-size: cover;
+}
+
+#contents>.con2>.img2 {
+    height: 300px;
+    background: url(img/con2-2.jpg) no-repeat;
+    background-size: cover;
+}
+
+#contents>.con2>.img3 {
+    height: 300px;
+    background: url(img/con2-3.jpg) no-repeat;
+    background-size: cover;
+}
+
+#contents>.con2>.img4 {
+    height: 300px;
+    background: url(img/con2-4.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+/*----------------------footer---------------------------- */
+
+.footerWrap {
+    width: 100%;
+    background: rgb(82, 0, 0);
+}
+
+.footerWrap>#footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footerWrap>#footer>.footerLogo {
+    width: 50%;
+    float: left;
+    padding: 30px 0px;
+}
+
+.footerWrap>#footer>.footerLogo>img {
+    width: 25%;
+}
+
+.footerWrap>#footer>p {
+    width: 48%;
+    float: left;
+    color: #fff;
+    text-align: right;
+}
+
+.footerWrap>#footer>ul {
+    width: 17%;
+    float: right;
+}
+
+.footerWrap>#footer>ul>li {
+    width: 28%;
+    float: left;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.footerWrap>#footer>ul>li>a {
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+
+
+}
+
+.footerWrap>#footer>ul>li:hover a {
+    color: rgb(82, 0, 0);
+    background: #fff;
+    border-radius: 50%;
+
+}
