@@ -56,13 +56,13 @@ $(document).ready(function () {
 	if (window.outerWidth >= 577) {
 		if (scroll1 >= con1Top && scroll1 < con2Top) {
 			
-			$('.con1>.op').css({'bottom' : '0px', 'opacity' : '1'});
+			$('.con1_inner>.op').css({'bottom' : '0px', 'opacity' : '1'});
 
 		} 
 
 		if (scroll1 <= con1Top) {
 
-			$('.con1>.op').css({'bottom' : '-500px', 'opacity' : '0'});
+			$('.con1_inner>.op').css({'bottom' : '-500px', 'opacity' : '0'});
 
 		}
 	}
