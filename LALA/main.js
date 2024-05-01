@@ -174,10 +174,10 @@ $(document).ready(function () {
 	}
 
 	var con6Top = $('.con6').offset().top - 600;
-	var footerTop = $('.footerWrap').offset().top;
+	var footerTop = $('#footer_wrap').offset().top;
 
 	console.log($(window).scrollTop());
-	console.log($('.footerWrap').offset().top);
+	console.log($('#footer_wrap').offset().top);
 
 	$(window).on('scroll', function () {
 		var scroll = $(this).scrollTop();
